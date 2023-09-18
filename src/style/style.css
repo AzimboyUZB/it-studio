@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.menu__a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
+}
+
+@media screen and (max-width: 1440px){
+    .menu__a{
+        font-size: 15px;
+        line-height: 20px;  
+    }
+}
+
+@media screen and (max-width: 768px){
+    .menu__a{
+        text-align: center;
+    }
+}
+
+.header {
+    background: url(../assets//img//Rectangle\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.BigBoxImg {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../assets//img//Rectangle\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.SmallBoxImg {
+    width: 50%;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets//img/Rectangle\ 2\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.input {
+    width: 50%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+}
+
+.icon {
+    color: #fff;
+}
+
+@media screen and (min-width: 426px) {
+    .icon {
+        display: none;
+    }
+}
+
+
+.manu__a__one {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
+}
+
+@media screen and (max-width: 1440px){
+    .manu__a__one{
+        font-size: 15px;
+        line-height: 20px;  
+    }
+}
+
+.menu.open{
+    position: fixed;
+    left: 0;
+    transition: all ease 0.3s;
+    z-index: 100;
+}
